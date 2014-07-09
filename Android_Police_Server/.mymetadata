@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Android_Police_Server"
+  id="myeclipse.1301428980191"
+  context-root="/Android_Police_Server"
+  j2ee-spec="5.0"
+  archive="Android_Police_Server.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

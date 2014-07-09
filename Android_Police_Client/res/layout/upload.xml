@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+	<TableRow>
+		<TextView android:text="Plate Number" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" />
+		<EditText android:text="" android:id="@+id/plateEditText"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Violation" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" />
+		<EditText android:text="" android:id="@+id/violationEditText"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Date" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" />
+		<EditText android:text="" android:id="@+id/dateEditText"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<Button android:text="Set" android:id="@+id/setButton"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	</TableRow>
+	<TableRow>
+		<Button android:text="Upload" android:id="@+id/uploadButton"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" 
+			android:layout_gravity="center"/>
+	</TableRow>
+</TableLayout>
